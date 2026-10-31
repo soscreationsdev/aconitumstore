@@ -1,190 +1,682 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ACONITUM — Charme Mortal.">
-    <title>ACONITUM | Charme Fatal</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav class="navbar" id="inicio">
-        <a href="#inicio" class="brand">
-            <img src="imagens/logo.jpeg" class="brand-logo">
-            <span class="brand-name">ACONITUM</span>
-        </a>
-        <div class="nav-links">
-            <a href="#pulseiras">Pulseiras</a>
-            <a href="#colares">Colares</a>
-            <a href="#brincos">Brincos</a>
-            <a href="#cintos">Cintos</a>
-            <a href="#chaveiros">Chaveiros</a>
-            <a href="#enfeites">Enfeites</a>
-            <a href="#marcapag">Marca Páginas</a>
-        </div>
-        <a href="https://wa.me/55818570-9874"
-           class="button nav-button"
-           target="_blank"
-           rel="noopener noreferrer"
-           id="encomendar-button">
-            ENCOMENDAR
-        </a>
-    </nav>
-    <header class="header">
-        <div class="header-ornament">✦ ❦ ✦</div>
-        <h1>ACONITUM</h1>
-        <h2>Charme Fatal</h2>
-        <div class="header-divider">
-            <span>✧</span>
-        </div>
-        <p class="header-description">
-            A intrigante beleza dos detalhes.
-        </p>
-        <a href="#catalogo" class="button hero-button">
-            EXPLORAR COLEÇÃO
-        </a>
-        <div class="header-ornament bottom-ornament">❦ ✦ ❦</div>
-    </header>
-    <main id="catalogo">
-        <section class="product-section" id="pulseiras">
-            <div class="section-heading">
-                <span class="section-number">I</span>
-                <h2>Pulseiras</h2>
-                <span class="heading-ornament">──── ✦ ────</span>
-            </div>
-            <div class="product-grid">
-                <div class="product-card"><img src="imagens/pulseira_4.jpeg"></div>
-                <div class="product-card"><img src="imagens/pulseira_2.jpeg"></div>
-                <div class="product-card"><img src="imagens/pulseira_3.jpeg"></div>
-                <div class="product-card"><img src="imagens/pulseira_5.png"></div>
-                <div class="product-card"><img src="imagens/pulseira_1.jpeg"></div>
-                <div class="product-card"><img src="imagens/pulseira_6.png"></div>
-            </div>
-        </section>
-        <section class="product-section section-dark" id="colares">
-            <div class="section-heading">
-                <span class="section-number">II</span>
-                <h2>Colares</h2>
-                <span class="heading-ornament">──── ✦ ────</span>
-            </div>
-            <div class="product-grid">
-                <div class="product-card"><img src="imagens/colar_1.png"></div>
-                <div class="product-card"><img src="imagens/colar_3.jpg"></div>
-                <div class="product-card"><img src="imagens/colar_2.png"></div>
-            </div>
-        </section>
-        <section class="product-section" id="cintos">
-            <div class="section-heading">
-                <span class="section-number">III</span>
-                <h2>Cintos</h2>
-                <span class="heading-ornament">──── ✦ ────</span>
-            </div>
-            <div class="product-grid">
-                <div class="product-card"><img src="imagens/img_1.jpeg"></div>
-                <div class="product-card"><img src="imagens/cinto_1.jpeg"></div>
-                <div class="product-card"><img src="imagens/img_1.jpeg"></div>
-            </div>
-        </section>
-        <section class="product-section section-dark" id="brincos">
-            <div class="section-heading">
-                <span class="section-number">IV</span>
-                <h2>Brincos</h2>
-                <span class="heading-ornament">──── ✦ ────</span>
-            </div>
-            <div class="product-grid">
-                <div class="product-card"><img src="imagens/brinco_1.jpeg"></div>
-                <div class="product-card"><img src="imagens/brinco_3.png"></div>
-                <div class="product-card"><img src="imagens/brinco_2.jpeg"></div>
-            </div>
-        </section>
-        <section class="product-section" id="chaveiros">
-            <div class="section-heading">
-                <span class="section-number">V</span>
-                <h2>Chaveiros</h2>
-                <span class="heading-ornament">──── ✦ ────</span>
-            </div>
-            <div class="product-grid">
-                <div class="product-card"><img src="imagens/img_1.jpeg"></div>
-                <div class="product-card"><img src="imagens/enfeite_4.jpeg"></div>
-                <div class="product-card"><img src="imagens/img_1.jpeg"></div>
-            </div>
-        </section>
-        <section class="product-section section-dark" id="enfeites">
-            <div class="section-heading">
-                <span class="section-number">VI</span>
-                <h2>Enfeites</h2>
-                <span class="heading-ornament">──── ✦ ────</span>
-            </div>
-            <div class="product-grid">
-                <div class="product-card"><img src="imagens/enfeite_1.jpeg"></div>
-                <div class="product-card"><img src="imagens/enfeite_3.png"></div>
-                <div class="product-card"><img src="imagens/enfeite_2.jpeg"></div>
-            </div>
-        </section>
-        <section class="product-section" id="marcapag">
-            <div class="section-heading">
-                <span class="section-number">V</span>
-                <h2>Marca Páginas</h2>
-                <span class="heading-ornament">──── ✦ ────</span>
-            </div>
-            <div class="product-grid">
-                <div class="product-card"><img src="imagens/marca_página_1.png"></div>
-                <div class="product-card"><img src="imagens/img_1.jpeg"></div>
-                <div class="product-card"><img src="imagens/marca_página_2.png"></div>
-            </div>
-        </section>
-    <section class="custom-order-section" id="personalizados">
-        <span class="custom-order-ornament">✦ ❦ ✦</span>
-        <p class="custom-order-eyebrow">
-            UMA CRIAÇÃO SÓ SUA
-        </p>
-        <p class="custom-order-description">
-            Não encontrou exatamente o que procurava?
-            Peça a sua!
-        </p>
-        <p class="custom-order-detail">
-            Compartilhe suas referências e conte 
-            os detalhes da peça que você imagina.
-        </p>
-        <a
-            href="https://wa.me/55818570-9874"
-            class="button custom-order-button"
-            target="_blank"
-            rel="noopener noreferrer">
-            CONSULTAR A ARTISTA
-        </a>
-    </section>
-    </main>
-    <footer class="footer">
-        <a href="#inicio" class="footer-brand">ACONITUM</a>
-        <p class="footer-subtitle">Charme Mortal</p>
-        <br>
-        <a href="https://wa.me/55818570-9874"
-           class="button nav-button"
-           target="_blank"
-           rel="noopener noreferrer"
-           id="encomendar-button">
-            ENCOMENDAR
-        </a>
-        <br>
-        <div class="footer-ornament">──── ❦ ────</div>
-        <a href="https://www.instagram.com/aconitumstore/"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="instagram-link">
-            @aconitumstore
-        </a>
-        <br>
-        <div class="footer-links">
-            <a href="#inicio">Início</a>
-            <a href="#catalogo">Catálogo</a>
-        </div>
-        <div class="footer-divider"></div>
-        <p class="copyright">
-            © 2026 ACONITUM — Charme Fatal
-            Todos os direitos reservados.
-        </p>
-        <span class="footer-ornament final-ornament">✧ ❦ ✧</span>
-    </footer>
-</body>
-</html>
+:root {
+    --roxo-noturno: rgb(53, 35, 67);
+    --roxo-profundo: rgb(30, 19, 38);
+    --roxo-medio: rgb(83, 58, 101);
+    --roxo-claro: rgb(139, 111, 153);
+    --verde-floresta: rgb(31, 66, 49);
+    --verde-profundo: rgb(20, 43, 32);
+    --off-white: rgb(246, 241, 229);
+    --off-white-escuro: rgb(229, 221, 205);
+    --texto-escuro: rgb(46, 36, 49);
+    --borda: rgb(112, 87, 122);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+body{
+    background-color: var(--off-white);
+    color: var(--texto-escuro);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.7;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+button, a{
+    -webkit-tap-highlight-color: transparent;
+}
+
+.navbar{
+    width: 100%;
+    min-height: 94px;
+    padding: 14px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: var(--roxo-profundo);
+    border-bottom: 1px solid var(--borda);
+    color: var(--off-white);
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    flex-shrink: 0;
+}
+
+.brand-logo{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--roxo-claro);
+    background-color: var(--off-white);
+}
+
+.brand-name{
+    color: var(--off-white);
+    font-size: 1.35rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+}
+
+.nav-links a{
+    color: var(--off-white-escuro);
+    font-size: 0.91rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover{
+    color: var(--roxo-claro);
+}
+
+.button{
+    display: inline-block;
+    padding: 12px 22px;
+    border: 1px solid var(--roxo-claro);
+    border-radius: 3px;
+    background-color: var(--roxo-noturno);
+    color: var(--off-white);
+    font-family: Arial, sans-serif;
+    font-size: 0.82rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover{
+    background-color: var(--verde-floresta);
+    border-color: var(--off-white);
+    color: var(--off-white);
+    transform: translateY(-2px);
+}
+
+.nav-button{
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 11px 16px;
+}
+
+.header{
+    min-height: 480px;
+    padding: 75px 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--off-white);
+    background: linear-gradient( 135deg, rgb(31, 66, 49, 0.96), rgb(53, 35, 67, 0.98), rgb(30, 19, 38));
+}
+
+.header::before, .header::after {
+   content: "❦"; 
+   position: absolute; 
+   pointer-events: none;
+   color: var(--off-white);
+   opacity: 0.08;
+   font-size: 15rem;
+   line-height: 1;
+}
+
+.header::before{
+    top: -45px;
+    left: -25px;
+    transform: rotate(-30deg);
+}
+
+.header::after{
+    right: -20px;
+    bottom: -55px;
+    transform: rotate(150deg);
+}
+
+.header-ornament{
+    color: var(--roxo-claro);
+    font-size: 1.6rem;
+    letter-spacing: 8px;
+}
+
+.header-eyebrow{
+    margin-top: 16px;
+    font-family: Arial, sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 5px;
+    color: var(--off-white-escuro);
+}
+
+.header h1{
+    margin-top: 10px;
+    font-size: clamp(3rem, 8vw, 6rem);
+    line-height: 1.15;
+    letter-spacing: 7px;
+    font-weight: normal;
+    text-shadow: 0 5px 20px rgb(0, 0, 0, 0.25);
+}
+
+.header h2{
+    margin-top: 8px;
+    color: var(--roxo-claro);
+    font-size: clamp(1.3rem, 3vw, 2rem);
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.header-divider{
+    width: 140px;
+    height: 1px;
+    margin: 24px auto;
+    background-color: var(--roxo-claro);
+    position: relative;
+}
+
+.header-divider span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 12px;
+    background-color: var(--roxo-noturno);
+    color: var(--off-white);
+}
+
+.header-description{
+    max-width: 500px;
+    margin: 0 auto 28px;
+    color: var(--off-white-escuro);
+    font-size: 1.05rem;
+}
+
+.hero-button{
+    position: relative;
+    z-index: 1;
+    padding: 14px 27px;
+}
+
+.bottom-ornament{
+    margin-top: 35px;
+}
+
+.product-section{
+    padding: 70px 6%;
+    scroll-margin-top: 20px;
+    background-color: var(--off-white);
+}
+
+.section-dark{
+    background-color: var(--roxo-profundo);
+    color: var(--off-white);
+}
+
+.section-heading{
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+.section-number{
+    display: block;
+    margin-bottom: 8px;
+    color: var(--roxo-claro);
+    font-size: 0.9rem;
+    letter-spacing: 5px;
+}
+
+.section-heading h2{
+    color: var(--roxo-noturno);
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.3;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.section-dark .section-heading h2{
+    color: var(--off-white);
+}
+
+.section-heading p{
+    margin-top: 12px;
+    font-size: 1rem;
+    color: var(--texto-escuro);
+}
+
+.section-dark .section-heading p{
+    color: var(--off-white-escuro);
+}
+
+.heading-ornament{
+    display: block;
+    margin-top: 16px;
+    color: var(--roxo-claro);
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+}
+
+.product-grid{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.product-card{
+    min-width: 0;
+    overflow: hidden;
+    padding: 8px;
+    background-color: var(--off-white);
+    border: 1px solid var(--off-white-escuro);
+    box-shadow: 0 5px 18px rgb(30, 19, 38, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.section-dark .product-card{
+    background-color: rgb(42, 29, 49);
+    border-color: var(--borda);
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.16);
+}
+
+.product-card:hover{
+    transform: translateY(-5px);
+    border-color: var(--roxo-claro);
+    box-shadow: 0 12px 26px rgb(30, 19, 38, 0.16);
+}
+
+.product-card img{
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    background-color: var(--off-white-escuro);
+}
+
+.order-section{
+    padding: 70px 24px;
+    text-align: center;
+    color: var(--off-white);
+    background: linear-gradient(135deg, var(--verde-floresta), var(--roxo-noturno), var(--roxo-profundo));
+}
+
+.order-section h2{
+    max-width: 750px;
+    margin: 15px auto;
+    font-size: clamp(1.8rem, 5vw, 2.8rem);
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+.order-section p{
+    max-width: 600px;
+    margin: 0 auto 28px;
+    color: var(--off-white-escuro);
+}
+
+.order-button{
+    padding: 15px 30px;
+    background-color: var(--off-white);
+    color: var(--roxo-noturno);
+    border-color: var(--off-white);
+}
+
+.order-button:hover{
+    background-color: var(--roxo-medio);
+    border-color: var(--off-white);
+    color: var(--off-white);
+}
+
+.footer{
+    padding: 45px 20px 25px;
+    text-align: center;
+    background-color: var(--roxo-profundo);
+    color: var(--off-white);
+    border-top: 1px solid var(--borda);
+}
+
+.footer-brand{
+    display: inline-block;
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: var(--off-white);
+}
+
+.footer-subtitle{
+    color: var(--roxo-claro);
+    font-size: 1.05rem;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.footer-ornament{
+    margin: 15px auto;
+    color: var(--roxo-claro);
+    letter-spacing: 5px;
+}
+
+.instagram-link{
+    display: inline-block;
+    margin: 5px 0 20px;
+    color: var(--off-white);
+    font-size: 1.05rem;
+    transition: color 0.3s ease;
+}
+
+.instagram-link:hover{
+    color: var(--roxo-claro);
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.footer-links a{
+    font-size: 0.9rem;
+    color: var(--off-white-escuro);
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover{
+    color: var(--roxo-claro);
+}
+
+.footer-divider{
+    width: min(350px, 85%);
+    height: 1px;
+    margin: 25px auto 18px;
+    background-color: var(--borda);
+}
+
+.copyright{
+    color: var(--off-white-escuro);
+    font-size: 0.78rem;
+}
+
+.final-ornament{
+    margin-top: 22px;
+}
+
+@media (max-width: 1050px){
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px 24px;
+    }
+
+    .brand{
+        margin-right: auto;
+    }
+
+    .nav-button{
+        margin-left: auto;
+    }
+
+    .nav-links{
+        order: 3;
+        width: 100%;
+    }
+
+    .product-grid{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+}
+
+@media (max-width: 560px){
+    html {
+        scroll-padding-top: 15px;
+    }
+
+    .navbar{
+        padding: 16px;
+        gap: 15px;
+    }
+
+    .brand{
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .brand-logo{
+        width: 55px;
+        height: 55px;
+    }
+
+    .brand-name{
+        font-size: 1.25rem;
+    }
+
+    .nav-links{
+        gap: 8px 15px;
+    }
+
+    .nav-links a{
+        font-size: 0.83rem;
+    }
+
+    .nav-button{
+        margin: 0;
+    }
+
+    .header{
+        min-height: 430px;
+        padding: 55px 20px;
+    }
+
+    .header h1{
+        letter-spacing: 4px;
+    }
+
+    .header-eyebrow{
+        font-size: 0.68rem;
+        letter-spacing: 3px;
+    }
+
+    .header::before, .header::after{
+        font-size: 9rem;
+    }
+
+    .product-section{
+        padding: 48px 18px;
+    }
+
+    .section-heading{
+        margin-bottom: 28px;
+    }
+
+    .product-grid{
+        grid-template-columns: minmax(0, 1fr);
+        max-width: 390px;
+        gap: 22px;
+    }
+
+    .product-card img{
+        aspect-ratio: 4 / 4;
+    }
+
+    .order-section{
+        padding: 55px 22px;
+    }
+
+    .footer{
+        padding-top: 35px;
+    }
+
+    .footer-brand{
+        font-size: 1.8rem;
+    }
+
+    .footer-links{
+        gap: 16px;
+    }
+}
+a:focus-visible{
+    outline: 2px solid var(--roxo-claro);
+    outline-offset: 4px;
+}
+@media (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto;
+    }
+    *, *::before, *::after{
+        transition-duration: 0.01ms !important;
+    }
+}
+
+.custom-order-section{
+    position: relative;
+    overflow: hidden;
+    padding: 75px 24px;
+    text-align: center;
+    color: var(--off-white);
+    background: linear-gradient(135deg, var(--verde-profundo), var(--roxo-noturno) 55%, var(--roxo-profundo));
+    border-top: 1px solid var(--borda);
+    border-bottom: 1px solid var(--borda);
+}
+
+.custom-order-section::before, .custom-order-section::after{
+    content: "❦";
+    position: absolute;
+    pointer-events: none;
+    color: var(--roxo-claro);
+    opacity: 0.09;
+    font-size: 12rem;
+    line-height: 1;
+}
+
+.custom-order-section::before{
+    top: -35px;
+    left: -25px;
+    transform: rotate(-35deg);
+}
+
+.custom-order-section::after{
+    right: -25px;
+    bottom: -50px;
+    transform: rotate(145deg);
+}
+
+.custom-order-ornament{
+    display: block;
+    margin-bottom: 15px;
+    color: var(--roxo-claro);
+    font-size: 1.6rem;
+    letter-spacing: 8px;
+}
+
+.custom-order-eyebrow{
+    margin-bottom: 12px;
+    color: var(--off-white-escuro);
+    font-family: Arial, sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 4px;
+}
+
+.custom-order-section h2{
+    max-width: 760px;
+    margin: 0 auto 20px;
+    color: var(--off-white);
+    font-size: clamp(1.8rem, 5vw, 2.8rem);
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+.custom-order-description, .custom-order-detail{
+    max-width: 650px;
+    margin: 0 auto;
+    color: var(--off-white-escuro);
+    font-size: 1rem;
+}
+
+.custom-order-detail{
+    margin-top: 15px;
+    margin-bottom: 28px;
+}
+
+.custom-order-button{
+    position: relative;
+    z-index: 1;
+    padding: 15px 26px;
+    background-color: var(--off-white);
+    border-color: var(--roxo-claro);
+    color: var(--roxo-noturno);
+}
+
+.custom-order-button:hover{
+    background-color: var(--roxo-medio);
+    border-color: var(--off-white);
+    color: var(--off-white);
+}
+
+.custom-order-footer{
+    display: block;
+    margin-top: 30px;
+    color: var(--roxo-claro);
+    font-size: 0.88rem;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 560px){
+    .custom-order-section{
+        padding: 55px 22px;
+    }
+
+    .custom-order-eyebrow{
+        font-size: 0.68rem;
+        letter-spacing: 3px;
+    }
+
+    .custom-order-description,
+    .custom-order-detail{
+        font-size: 0.95rem;
+    }
+
+    .custom-order-button{
+        max-width: 100%;
+        padding: 14px 18px;
+        font-size: 0.76rem;
+        letter-spacing: 1px;
+    }
+
+    .custom-order-section::before, .custom-order-section::after{
+        font-size: 8rem;
+    }
+
+    .custom-order-footer{
+        font-size: 0.78rem;
+    }
+}
